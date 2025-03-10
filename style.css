@@ -1,0 +1,147 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@600&family=Poppins:wght@300&display=swap'); */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  background-color: black;
+}
+.main {
+  background-image: url("asset/images/background.jpg");
+  background-position: center center; 
+  /* background-size: max(1200px, 100vw); */
+  background-repeat: no-repeat;
+  height: 70vh;
+  position: relative;
+  
+}
+.main .box {
+  width: 100%;
+  height: 70vh;
+  background-color: black;
+  opacity: 0.69;
+  position: absolute;
+  top: 0;
+ 
+}
+
+nav {
+  max-width: 60vw;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 62px;
+}
+nav img {
+  width: 114px;
+  position: relative;
+  z-index: 10;
+}
+nav button {
+  position: relative;
+  z-index: 10;
+}
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: calc(100% - 62px);
+  flex-direction: column;
+  color: white;
+  position: relative;
+  font-family: "Maetel Sans", sans-serif;
+  gap: 23px;
+  width: 100%;
+  padding: 0px;
+}
+.hero > :nth-child(1) {
+  font-weight: 700;
+  font-size: 40px;
+  text-align: center;
+}
+
+.hero > :nth-child(2) {
+  font-size: 24px;
+  font-weight: 400;
+  text-align: center;
+}
+.hero > :nth-child(3) {
+  font-size: 20px;
+  font-weight: 400;
+  text-align: center;
+}
+.separation {
+  width: auto;
+  height: 10px;
+  background: linear-gradient(to bottom, #c60636d6, #382d22);
+  border-radius: 50% 50% 0 0;
+  margin-bottom: 30vh;
+}
+.btn {
+  padding: 3px 8px;
+  margin: 6px;
+  font-weight: bold;
+  background-color: rgba(23, 23, 23, 0.2);
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  
+  
+}
+.main input {
+  background-color: rgba(23, 23, 23, 0.7);
+  padding: 9px 35px;
+  font-size: 15px;
+  border-radius: 4px;
+   border:1px solid rgba(240, 237, 237, 0.612);
+  color: white;
+ 
+}
+
+.btn-red {
+  background-color: red;
+  color: white;
+  padding: 9px 24px;
+  font-size: 20px;
+  border-radius: 4px;
+}
+.btn-red-sm {
+  background-color: red;
+  color: white;
+}
+
+.english {
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
+  font-weight: 200;
+}
+
+.hero-buttons{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 10px;
+    gap: 5px;
+}
+.section{
+  display: flex;
+  flex-direction: row;
+ row-gap: 15px;
+ column-gap: 15px;
+ flex-wrap: nowrap;
+ justify-content: flex-start;
+  
+}
+.section img{
+  width:15vw;
+  height: 40vh;
+  border-radius: 3px
+}
+.section h3{
+  color: white;
+  font-size :25px;
+}
